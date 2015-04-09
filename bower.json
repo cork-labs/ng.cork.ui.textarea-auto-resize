@@ -1,6 +1,6 @@
 {
   "name": "ng.cork.ui.textarea-auto-resize",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Provides a directive to resize textareas on user input or programatic changes",
   "authors": [
     "Cork Labs <contact@cork-labs.org> (http://cork-labs.org)"
