@@ -1,3 +1,10 @@
+/**
+ * ng.cork.ui.textarea-auto-resize - v0.0.4 - 2015-04-09
+ * https://github.com/cork-labs/ng.cork.ui.textarea-auto-resize
+ *
+ * Copyright (c) 2015 Cork Labs <http://cork-labs.org>
+ * License: MIT <http://cork-labs.mit-license.org/2015>
+ */
 (function (angular) {
     'use strict';
 
