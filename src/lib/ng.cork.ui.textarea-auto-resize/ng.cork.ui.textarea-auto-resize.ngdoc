@@ -1,0 +1,29 @@
+@ngdoc overview
+@name ng.cork.ui.textarea-auto-resize
+@description
+
+> Provides a directive to resize textareas on user input or programatic changes.
+
+# Dependencies
+
+- None.
+
+
+# Usage
+
+Add the module as a dependency.
+
+<pre>
+angular.module('app', ['ng.cork.ui.textarea-auto-resize']);
+</pre>
+
+
+## Directive [cork-ui-textarea-auto-resize](#/api/ng.cork.ui.textarea-auto-resize.corkUiTextareaAutoResize)
+
+Add this directive to your textarea elements to have them resized as the user types.
+
+<pre>
+<textarea cork-ui-textarea-auto-resize></textarea>
+</pre>
+
+

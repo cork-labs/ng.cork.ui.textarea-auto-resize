@@ -1,0 +1,47 @@
+@ngdoc overview
+@name cork-ui-textarea-auto-resize
+@description
+
+## Directive: [cork-ui-textarea-auto-resize](#/api/ng.cork.ui.textarea-auto-resize.corkUiTextareaAutoResize)
+
+> Auto-focusing an element on render.
+
+<doc:example module="app" height="400" deps="src/lib/ng.cork.ui.textarea-auto-resize/textareaAutoResize.js">
+    <doc:source>
+        <script>
+        angular.module('app', ['ng.cork.ui.textarea-auto-resize'])
+        .controller('exampleCtrl', [
+            '$scope',
+            function ($scope,$window) {
+                $scope.clear = function () {
+                    $scope.text = '';
+                };
+                $scope.loremIpsum = function () {
+                    $scope.text = '# Lorem Ipsum\n- dolor\n- sit\n - amet';
+                };
+            }
+        ]);
+        </script>
+        <style>
+        .container {
+           padding: 10px;
+        }
+        .form-control, .pseudo-button {
+            width: 300px;
+            margin-bottom: 20px;
+        }
+        </style>
+        <div data-ng-controller="exampleCtrl" class="container">
+            <div class="form-group">
+                <label>this textarea will be resized as you type</label>
+                <textarea class="form-control" type="text" cork-ui-textarea-auto-resize></textarea>
+            </div>
+            <div class="form-group">
+                <label>this textarea will also be resized if the contents are modified programatically</label>
+                <textarea class="form-control" type="text" ng-model="text" cork-ui-textarea-auto-resize></textarea>
+                <button class="btn btn-default" ng-click="clear()">clear</button>
+                <button class="btn btn-default" ng-click="loremIpsum()">lorem ipsum</button>
+            </div>
+        </div>
+    </doc:source>
+</doc:example>
