@@ -2,7 +2,7 @@
 [![Build Status: Linux](http://img.shields.io/travis/cork-labs/ng.cork.ui.textarea-auto-resize/master.svg?style=flat-square)](https://travis-ci.org/cork-labs/ng.cork.ui.textarea-auto-resize)
 [![Bower version](http://img.shields.io/bower/v/ng.cork.ui.textarea-auto-resize.svg?style=flat-square)](https://github.com/cork-labs/ng.cork.ui.textarea-auto-resize)
 
-> Provides a directive to resize textareas on user input or programatic changes
+> AngularjS component to resize textareas on user input or programatic changes
 
 
 ## Getting Started
